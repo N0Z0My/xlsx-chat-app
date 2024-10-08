@@ -6,9 +6,6 @@ import random
 
 st.set_page_config(page_title='new app')
 st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
 
 df = pd.read_excel('list_kaigai.xlsx', sheet_name='sheet1',index_col=0)
 
