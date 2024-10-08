@@ -7,7 +7,7 @@ import random
 st.set_page_config(page_title='new app')
 st.title("🎈 My new app")
 
-df = pd.read_excel('list_kaigaianzen.xlsx', sheet_name='sheet1',index_col=0)
+df = pd.read_excel('list_kaigai.xlsx', sheet_name='sheet1',index_col=0)
 
 with st.expander('df', expanded=False):
     st.table(df)
