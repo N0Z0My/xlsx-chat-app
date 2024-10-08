@@ -4,7 +4,7 @@ import openpyxl
 import random
 
 
-st.set_page_config(page_title='new app')
+st.set_page_config(page_title='my new app')
 st.title("🎈 My new app")
 
 df = pd.read_excel('list_kaigai.xlsx', sheet_name='sheet1',index_col=0)
