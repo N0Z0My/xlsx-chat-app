@@ -3,12 +3,12 @@ import pandas as pd
 import openpyxl
 import random
 
+
+st.set_page_config(page_title='new app')
 st.title("🎈 My new app")
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
-
-st.set_page_config(page_title='new app')
 
 df = pd.read_excel('list_kaigai.xlsx', sheet_name='Sheet1',index_col=0)
 
